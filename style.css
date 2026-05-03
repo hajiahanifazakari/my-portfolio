@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.intro {
+  margin-left: 60px;
+  font-weight: bold;
+  color: #333;
+  flex-wrap: wrap;
+}
+
+.landing {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+margin: 30px;
+margin-left: 30px;
+}
+
+button{
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+  background-color: powderblue;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px;
+}
+
+.aboutme div {
+flex-basis: 50%;
+margin: 30px;
+}
+
+.connect{
+  margin-left: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 40px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .intro {
+    margin: 10px;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .landing {
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+  } 
+
+  .aboutme {
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 20px;
+  }
+
+  .image {
+    margin-right: 20px;
+  }
+
+  .connect{
+    margin-top: 70px;
+    margin-left: 40px;
+  }
+}
