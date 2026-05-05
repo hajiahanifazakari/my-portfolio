@@ -7,14 +7,14 @@
     <title>Personal Portfolio</title>
 </head>
 <body>  
-  
+  <section class="entire"></section>
         <div>
         <h1 class="title" style="color:darkblue">My Portfolio</h1>
         </div>
 
     <section class="landing"> 
         <div class="image">
-          <img src="my image.jpeg" alt="An image of Hanifa" style="width:540px; height:400px;"/>   
+          <img src="my image.jpeg" alt="An image of Hanifa" class="pic"/>   
         </div>
 
         <div class="intro">
@@ -56,17 +56,34 @@
         </div>
 
         <form>
-         <div class="contact info">  
+            <div class="first name">
+        <label for="first name">First Name:</label>
+        <input type="text" id="first name" name="first name" placeholder="Your first name here..." required>
+         </div>
+         
+         <div class="last name">
+        <label for="last name">Last Name:</label>
+        <input type="text" id="last name" name="last name" placeholder="Your last name here..." required>
+         </div>
+
+         <div class="email">  
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="your.email@gmail.com">
-        </div>
-        <div class="contact info">
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" placeholder="Your message here..."></textarea>
+        <input type="email" id="email" name="email" placeholder="your.email@gmail.com" required>
         </div>
 
-        <button style="background-color: greenyellow;">Send Message</button>
+        <div class="phone">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="(0)23-456-7890" required> 
+        </div>
+
+        <div class="message">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your message here..." required></textarea>
+        </div>
+
+        <button style="background-color: navy;">Send Message</button>
         </form>
+    </section>
     </section>
 </body>
 </html>

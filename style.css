@@ -7,12 +7,10 @@
   margin-left: 60px;
   font-weight: bold;
   color: #333;
-  flex-wrap: wrap;
 }
 
 .landing {
 display: flex;
-flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 margin: 30px;
@@ -41,6 +39,12 @@ flex-basis: 50%;
 margin: 30px;
 }
 
+.pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
 .connect{
   margin-left: 40px;
 }
@@ -58,6 +62,8 @@ input, textarea {
   border-radius: 5px;
 }
 
+
+
 @media screen and (max-width: 600px) {
   .title {
     text-align: center;
@@ -71,7 +77,8 @@ input, textarea {
   }
   
   .landing {
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
     margin: 5px;
     padding: 5px;
   } 
@@ -83,12 +90,19 @@ input, textarea {
     margin-left: 20px;
   }
 
-  .image {
+  .image { 
     margin-right: 20px;
   }
 
   .connect{
     margin-top: 70px;
     margin-left: 40px;
+  }
+
+  .entire{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
   }
 }
