@@ -30,7 +30,12 @@ projects {
   flex-wrap: wrap;
   justify-content: center;
   background-color: powderblue;
-  gap: 20px;
+  padding: 10px;
+  margin: 30px;
+}
+.project {
+  flex-basis: 50%;
+  background-color: powderblue;
   margin: 30px;
 }
 
