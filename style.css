@@ -50,7 +50,7 @@ button{
   background-color: powderblue;
   border-radius: 10px;
   padding: 10px;
-  margin: 30px;
+  margin: 20px;
 }
 
 .aboutme div {
@@ -68,10 +68,10 @@ margin: 30px;
   display: grid;
   border-radius: 10px;
   padding: 20px;
-  margin: 30px;
+  margin: 20px;
 }
 .connect{
-  margin-left: 40px;}
+  margin-left: 20px;}
 
 form {
   display: grid;
