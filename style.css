@@ -120,6 +120,7 @@ input, textarea, button, select {
   .connect{
     margin-top: 70px;
     margin-left: 40px;
+    flex-direction: column;
   }
 
   .entire{
