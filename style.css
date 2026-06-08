@@ -30,14 +30,14 @@ button{
   flex-wrap: wrap;
   justify-content: center;
   background-color: powderblue;
-  padding: 20px;
+  padding: 10px;
   margin: 40px;
   margin-left: 40px;
 }
 .project {
   flex-basis: 50%;
   background-color: powderblue;
-  margin: 20px;
+  margin: 10px;
   display: grid;
   gap: 15px;
   margin-left: 40px;
