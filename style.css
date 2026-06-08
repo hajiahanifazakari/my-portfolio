@@ -122,7 +122,6 @@ input, textarea, button, select {
     margin-left: 40px;
     flex-direction: column;
     display: flex;
-    text-align: center;
   }
 
   .entire{
