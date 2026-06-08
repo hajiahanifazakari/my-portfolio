@@ -127,6 +127,7 @@ input, textarea, button, select {
     margin-left: 20px;
     flex-direction: column;
     display: flex;
+    padding: 10px;
   }
 
   .entire{
